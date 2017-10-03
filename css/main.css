@@ -1,4 +1,11 @@
 .center_div {
-	background-color: #4286f4;
-	margin: auto;
+	margin: 0 auto;
+	width: auto;
+	text-align: center;
+}
+
+.outer-div {
+	position: absolute;
+	bottom: 70px;
+	width: 100%;
 }
