@@ -6,6 +6,79 @@
 
 .outer-div {
 	position: absolute;
-	bottom: 70px;
+	margin: 0 auto;
+	top: 25%;
 	width: 100%;
 }
+
+.logo {
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.padding {
+
+	padding-top: 20px;
+}
+
+.left_footer {
+	float: right;			
+}
+
+.right_footer {
+	float: left;
+}
+
+.footer {
+	position: absolute;
+	bottom: 0px;
+	background-color: #F2F2F2
+}
+
+.top {
+	top: 0;
+	float: right;
+}
+
+.top_menu {
+	float: right;
+	padding-right: 3%; 
+}
+.buttons {
+	font-family: arial, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	text-align: center;
+	padding 0 16px;
+	height: 40px;
+}
+
+.search {
+	box-shadow: 2px 2px 4px;
+	border-radius: 2px;
+	height: 35px;
+	width: 40%;	
+}
+
+body {
+	display: table;
+	width: 100%;
+}
+
+footer { 
+	display: table-row;
+	height: 50px; /*à titre d'exemple */
+	width: 100%;
+}
+
+li {
+	display: inline-block;
+	padding-right: 10px;
+}
+
+ul li {
+	font-family: arial, sans-serif;
+	font-size: 13px;
+}
+
